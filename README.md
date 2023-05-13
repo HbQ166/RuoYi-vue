@@ -1,4 +1,10 @@
 # RuoYi-Vue
+若依官网：http://ruoyi.vip
+
+演示地址：http://demo.ruoyi.vip
+
+代码下载：https://gitee.com/y_project/RuoYi
+
 &nbsp;&nbsp;&nbsp;*整理框架内容*
 ### 框架结构：![](2023-05-12-13-09-57.png)
 ## 一、登录模块
