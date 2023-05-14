@@ -5,7 +5,7 @@
 
 代码下载：https://gitee.com/y_project/RuoYi
 
-&nbsp;&nbsp;&nbsp;*整理框架内容*
+&nbsp;&nbsp;&nbsp;*ruoyi-vue前后端分离版本的学习笔记整理记录*
 ### 框架结构：![](2023-05-12-13-09-57.png)
 ## 一、登录模块
 ### 获取验证码
@@ -632,4 +632,25 @@ submitForm: function() {
 ![](2023-05-13-14-57-35.png)
 4、点击生成代码下载代码
 5、导入代码重启项目
-## 六、导入导出功能
+## 六、导入导出功能(编辑中)
+## 七、git总结
+~~~
+//查看分支下各个版本
+git log
+//退回版本
+//^个数代表退回版本数
+git reset --hard HEAD^
+git reset --hard 版本号
+//比较工作区和版本库
+git diff HEAD -- filename
+//撤销修改，如果暂存区有数据则退回到暂存区的数据，如果没有退回到版本库的数据
+git checkout -- filename
+//创建并切换分支
+git checkout -b branchname
+//切换分支后工作区会和暂存区或版本库一样，看暂存区有无数据，公用暂存区，私有版本库
+//查看指令历史
+git reflog
+//在合并分支时加上参数可以在log中看到合并信息
+git merge --no-ff -m "" dev
+
+~~~
